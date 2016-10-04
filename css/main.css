@@ -1,0 +1,23 @@
+﻿.blue {
+    color: blue;
+}
+
+.myNonClass {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myClass {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	background-color: blue;
+    display: inline-block;
+}
+
+p {
+    padding: 10px;
+}
