@@ -38,29 +38,63 @@
 
         </div>
         <div class="row">
-            <div class="col-md-8 col-md-offset-1">
-                <h4>Chrome Developer Tools</h4>
+            <div class="col-md-9 col-md-offset-1">
+                <h4>Basic Programming Concepts</h4>
                 <p>
-                    To be a web developer, you have to learn how to work with programming languages. We’re going to do some programming right in our browser using Javascript.
+                    Open up Chrome Developer Tools again. This time, select the “Console” tab. In the console, type:
                 </p>
-                <p>
-                    To do this, we'll need to learn how to use Chrome’s Developer Tools. Chrome provides special tools that makes front-end web development easier. To access these tools, find “More tools” in the browser menu and click on “Developer Tools”. You can also right click any element on this page and select “Inspect”.
-                </p>
-                <p>
-                    The first tab “Elements” is listing the HTML elements on this page. When you click on an element, the CSS for that element will show up in the box to the right. Go ahead and click around this to see more examples of HTML and CSS!
-                </p>
-                <p>
-                    If you deselect the checkboxes next to the CSS rules, you’ll notice things changing on the page. That’s because the CSS is being taken away from the elements. You can even change the values of the CSS rules to further edit things on the page.
-                </p>
-                <p>
-                    Want everything to go back to the way it was? Just refresh the page. The changes you make using the developer tools are only temporary. No one else will see them and they won’t ever save anywhere. That’s because we’re not making a request to a server when we use the developer tools.
-                </p>
+<!-- VARIABLES -->
+            <div class="row">
+                <div class="col-md-5">
+<pre><code class="language-javascript">var myVariable = “Hello World!”
+console.log(myVariable)
+</code></pre>
+                </div>
+
+                <div class="col-md-7">
+                    <p>
+                        In programming, we can store information using variables. A <strong>variable</strong> is like a box that holds a piece of data. In this case, we are telling <code class="language-javascript">myVariable</code> to hold onto "Hello World!". <code class="language-javascript">console.log</code> then prints the variable to the screen. Try creating another variable and printing a different message to the console.
+</p>
+                </div>
+            </div>
+            <!-- FUNCTIONS -->
+            <div class="row">
+                <div class="col-md-12">
+<pre><code class="language-javascript">function printHello() { console.log(“Hello! Welcome to the console.”) }
+printHello()
+function printGreeting(name) { console.log("Hello " + name) }
+printGreeting(“Ele”)
+</code></pre>
+                    </div>
+                    <div class="col-md-12">
+                        <p>
+                        If you want to repeat similar code, you can hold the code in a <strong>function</strong>. In this example, we can call <code class="language-javascript">printHello()</code> over and over again instead of having to type out <code class="language-javascript">
+    console.log(“Hello! Welcome to the console.”)</code> every time we want to show our welcome message.</p>
+                        <p>
+                            We can also specify a <strong>parameter</strong> and pass in an <strong>argument</strong> to a function. The parameter is basically a placeholder or name for the argument. In <code class="language-javascript">printGreeting(name)</code>, name is the parameter and "Ele" is the argument. We can change the argument passed in to print something different to the console.
+                        </p>
+                        <p>Try passing in your own name to the printGreeting function.</p>
+    
+</div>
+           </div>
+<!-- OPERATORS -->
+            <div class="row">
+                <div class="col-md-6">
+<pre><code class="language-javascript">var num1 = 50;
+var num2 = 40;
+num1 + num2
+</code></pre>
+                </div>
+            <div class="col-md-6">
+                Some explanations
             </div>
         </div>
 
+</div>
+        </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <a href="programming.html" class="next">NEXT: Basic Programming Concepts</a>
+                <a href="resources.html" class="next">NEXT: Resources for Further Learning</a>
                 <a href="backend.html" class="back">BACK: What happens on the server?</a>
             </div>
         </div>
@@ -72,8 +106,8 @@
                     <li><a href="index.html">How does the web work?</a></li>
                     <li><a href="frontend.html">What is HTML, CSS, and Javascript?</a></li>
                     <li><a href="backend.html">What happens on the server?</a></li>
-                    <li>Chrome Developer Tools</li>
-                    <li><a href="programming.html">Programming Basics</a></li>
+                    <li><a href="devtools.html">Chrome Developer Tools</a></li>
+                    <li>Programming Basics</li>
                     <li><a href="resources.html">Resources for Further Learning</a></li>
                 </ol>
                 <br />

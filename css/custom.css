@@ -1,0 +1,15 @@
+﻿.next {
+    float: right;
+}
+
+.back {
+    float: left;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+img {
+    padding-bottom: 7px;
+}
