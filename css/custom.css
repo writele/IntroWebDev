@@ -1,4 +1,6 @@
-﻿.next {
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.next {
     float: right;
 }
 
@@ -12,4 +14,29 @@ hr {
 
 img {
     padding-bottom: 7px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+p, li, a {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.container {
+    background-color: #ffffff;
+    min-height: 100%;
+}
+
+body {
+    background-image: url('../images/background-01.png');
 }
